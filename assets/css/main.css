@@ -1,0 +1,22 @@
+/* RESET CSS TOOLS */
+*{
+    margin: 0; /* Sets the outer space outside the element's border */
+    padding: 0; /* Sets the inner space inside the element's border */
+    box-sizing: border-box;
+}
+
+.main_section{
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url(../images/main_section_image.jpeg);
+    background-position: 60.2% 50%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex; /* Turns the element into a flex container */
+    align-items: end; /* Positioning items along the cross axis (vertically) */
+    justify-content: center; /* Aligns items at the position of the main axis (horizontally) */
+}
+
+.main_section_inner{
+    width: 80%;
+    padding-bottom: 150px;
+}
